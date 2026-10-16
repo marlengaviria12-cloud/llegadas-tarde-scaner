@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Registro de Llegadas Tarde</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <div id="camara-contenedor">
+      <div id="barra-superior">Acerca el código QR a la cámara</div>
+      <video id="video" autoplay playsinline muted></video>
+      <div id="marco-escaneo"></div>
+      <button id="boton-camara" style="display:none;">Cambiar cámara</button>
+    </div>
+    <canvas id="canvas" style="display:none;"></canvas>
+  </div>
+
+  <div id="panel-mensaje">
+    <div id="icono-estado" class="icono-estado"></div>
+    <div id="titulo-estado" class="titulo-estado"></div>
+    <div id="tarjeta-datos" class="tarjeta-datos" style="display:none;"></div>
+    <div id="mensaje-texto" class="mensaje-texto" style="display:none;"></div>
+    <button id="boton-continuar" style="display:none;">Siguiente escaneo</button>
+    <button id="boton-reintentar" style="display:none;">Reintentar</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+  <script src="app.js?v=2"></script>
+</body>
+</html>
