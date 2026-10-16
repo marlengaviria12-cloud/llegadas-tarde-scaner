@@ -1,6 +1,6 @@
 // URL de la implementacion (deployment) del backend en Apps Script, terminada en /exec.
 // Debe estar publicada con acceso "Cualquier persona" para que este fetch funcione.
-var URL_BACKEND = 'https://script.google.com/macros/s/AKfycbzfDNKlNReAzKZlGaAWTdWtR-4lbjNnWwUj2tkXNm1sWBaE1zLHujZKtf6r-wpdrtHM/exec';
+var URL_BACKEND = 'https://script.google.com/macros/s/AKfycbz_MUmyDr1fzDFwjayw3WMcTLokLVUyV1Vc5Q2DxI0MAg8vD117ueaFiWBvP6fH0_60rg/exec';
 
 var video = document.getElementById('video');
 var canvas = document.getElementById('canvas');
